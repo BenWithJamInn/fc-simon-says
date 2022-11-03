@@ -1,0 +1,22 @@
+.square {
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  border-radius: 50px;
+  margin: 10px;
+  transition: transform 0.1s;
+}
+
+.square:hover {
+  transform: scale(1.05);
+}
+
+.squareScale {
+  transform: scale(1.05);
+}
+
+.squareClicked {
+  border-color: white !important;
+}
